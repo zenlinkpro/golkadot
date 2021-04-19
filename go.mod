@@ -1,8 +1,10 @@
-module github.com/opennetsys/golkadot
+module github.com/zenlink/golkadot
 
 replace github.com/go-interpreter/wagon v0.0.0 => github.com/perlin-network/wagon v0.3.1-0.20180825141017-f8cb99b55a39
 
 replace github.com/libp2p/go-libp2p-crypto v2.0.1+incompatible => github.com/libp2p/go-libp2p-crypto v2.0.5+incompatible
+
+replace github.com/opennetsys/golkadot => github.com/zenlink/golkadot
 
 require (
 	github.com/OneOfOne/xxhash v1.2.4 // indirect
